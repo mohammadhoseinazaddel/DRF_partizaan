@@ -1,5 +1,4 @@
-
-
+from django.shortcuts import render
 from django.views.generic.list import ListView
 from carear.models import WeeklyIncome
 class WeeklyShow(ListView):
@@ -15,3 +14,9 @@ class WeeklyShow(ListView):
         if to_date:
             self.queryset.filter(to_date__lte=to_date)
         return self.queryset
+
+    # def my_view(request):
+    #     context = {
+    #
+    #     }
+    #     return render(request, "weekly.html", context)

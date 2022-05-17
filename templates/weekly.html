@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+
+<form method="POST" action="{% url 'weekly' %}">{% csrf_token %}
+    {{ week_form }}
+    <input type="submit" name="submit_results" value="Results" />
+    fromdate: <input type="date" name="fromdate"/>
+    to_date: <input type="date" name="todate"/>
+    <input type="submit" value="search"/>
+</form>
+
+
+
+
+
+</body>
+</html>
