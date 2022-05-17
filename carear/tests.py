@@ -33,3 +33,5 @@ class CarearCheckerTest(TestCase):
         CarearChecker.objects.create(
             checker_name='test',user='test')
 
+# ToDo daily api test
+
