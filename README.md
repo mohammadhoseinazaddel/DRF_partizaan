@@ -50,7 +50,6 @@ and choose your username and pass
 
 ### for using swagger
 http://127.0.0.1:8000/swagger/
-![img.png](readme-images/img_1.png)
 
 ### getting token url
 http://127.0.0.1:8000/api/token
